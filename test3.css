@@ -1,0 +1,73 @@
+:root {
+    view-transition-name: root;
+}
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+body {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Courier";
+    background-color: #fff5e4;
+    color: #ff9494;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-size: 40px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.button {
+    padding: 6px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "courier";
+    margin-bottom: 10px;
+    background-color: #ffe3e1;
+    color: #e67373;
+    border-radius: 12px;
+    border: 2px solid #ffe3e1;
+    transition: 0.3s;
+}
+label {
+    cursor: default;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+input[type="date"] {
+    padding: 6px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "courier";
+    margin-bottom: 10px;
+    background-color: #ffe3e1;
+    color: #e67373;
+    border-radius: 12px;
+    border: 2px solid #ffe3e1;
+}
